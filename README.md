@@ -1,5 +1,4 @@
-Writing effective Git commit messages is essential for maintaining a clear and understandable project history. Here's a guide with examples and best practices:
-
+# It is About Git Commit MSG how we type MSG in RIght Way
 ### 1. **Structure of a Commit Message**
    A good commit message typically consists of three parts:
    - **Subject Line**: A brief summary of the changes (about 50 characters).
