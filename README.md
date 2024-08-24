@@ -1,4 +1,4 @@
-# It is About Git Commit MSG how we type MSG in RIght Way
+# 1. It is About Git Commit MSG how we type MSG in RIght Way
 ### 1. **Structure of a Commit Message**
    A good commit message typically consists of three parts:
    - **Subject Line**: A brief summary of the changes (about 50 characters).
