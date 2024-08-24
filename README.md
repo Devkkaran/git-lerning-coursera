@@ -1,36 +1,29 @@
-Here's the information formatted as a Markdown file:
+Writing effective Git commit messages is essential for maintaining a clear and understandable project history. Here's a guide with examples and best practices:
 
-```markdown
-# Guide to Writing Effective Git Commit Messages
+### 1. **Structure of a Commit Message**
+   A good commit message typically consists of three parts:
+   - **Subject Line**: A brief summary of the changes (about 50 characters).
+   - **Body**: A more detailed explanation (if necessary), wrapped at 72 characters.
+   - **Footer**: (Optional) Any references to issues, PRs, or breaking changes.
 
-## 1. Structure of a Commit Message
+### 2. **Guidelines for Writing Commit Messages**
 
-A good commit message typically consists of three parts:
+   - **Use the Imperative Mood**: Write the subject line as a command. For example, use "Fix bug" instead of "Fixed bug" or "Fixes bug."
+   - **Capitalize the First Letter**: Always start the subject line with a capital letter.
+   - **Keep it Brief**: Limit the subject line to around 50 characters. If more detail is needed, use the body.
+   - **Avoid Punctuation at the End of the Subject**: Don’t end the subject line with a period.
+   - **Separate the Subject from the Body with a Blank Line**: This helps in making the commit message readable.
+   - **Wrap the Body at 72 Characters**: This ensures that the message is displayed correctly in various interfaces.
+   - **Explain *What* and *Why***: In the body, explain what changes were made and why, but avoid explaining *how* (the code itself shows that).
 
-- **Subject Line**: A brief summary of the changes (about 50 characters).
-- **Body**: A more detailed explanation (if necessary), wrapped at 72 characters.
-- **Footer**: (Optional) Any references to issues, PRs, or breaking changes.
+### 3. **Example Commit Messages**
 
-## 2. Guidelines for Writing Commit Messages
-
-- **Use the Imperative Mood**: Write the subject line as a command. For example, use "Fix bug" instead of "Fixed bug" or "Fixes bug."
-- **Capitalize the First Letter**: Always start the subject line with a capital letter.
-- **Keep it Brief**: Limit the subject line to around 50 characters. If more detail is needed, use the body.
-- **Avoid Punctuation at the End of the Subject**: Don’t end the subject line with a period.
-- **Separate the Subject from the Body with a Blank Line**: This helps in making the commit message readable.
-- **Wrap the Body at 72 Characters**: This ensures that the message is displayed correctly in various interfaces.
-- **Explain _What_ and _Why_**: In the body, explain what changes were made and why, but avoid explaining _how_ (the code itself shows that).
-
-## 3. Example Commit Messages
-
-### Simple Commit (Subject Only)
-
+#### Simple Commit (Subject Only):
 ```plaintext
 Add user authentication feature
 ```
 
-### Commit with a Body
-
+#### Commit with a Body:
 ```plaintext
 Fix user login issue
 
@@ -43,8 +36,7 @@ This change ensures consistency across the user authentication
 process.
 ```
 
-### Commit with Footer (Issue Reference)
-
+#### Commit with Footer (Issue Reference):
 ```plaintext
 Update documentation for API changes
 
@@ -55,8 +47,7 @@ to reflect these changes.
 Fixes #42
 ```
 
-### Commit with Breaking Change
-
+#### Commit with Breaking Change:
 ```plaintext
 Refactor database schema
 
@@ -68,10 +59,9 @@ BREAKING CHANGE: The users table now has a unique constraint
 on the email column.
 ```
 
-## 4. Why Follow These Guidelines?
+### 4. **Why Follow These Guidelines?**
+   - **Consistency**: Consistent commit messages help in quickly understanding the history of a project.
+   - **Collaboration**: Clear messages make it easier for others (and your future self) to understand the changes.
+   - **Automation**: Tools like GitHub, GitLab, and CI/CD systems often use commit messages for triggering actions, generating changelogs, etc.
 
-- **Consistency**: Consistent commit messages help in quickly understanding the history of a project.
-- **Collaboration**: Clear messages make it easier for others (and your future self) to understand the changes.
-- **Automation**: Tools like GitHub, GitLab, and CI/CD systems often use commit messages for triggering actions, generating changelogs, etc.
-
-```
+Following these guidelines will help you write clear, concise, and informative commit messages, making your project history easier to navigate and understand.
