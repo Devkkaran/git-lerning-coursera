@@ -118,3 +118,41 @@ A file’s changes are not recorded.
 
 ## Version Control Systems (VCS)
 A tool to safely test code before releasing it, allow multiple people to collaborate on the same coding projects together, and stores the history of that code and configuration.
+
+# 3. Study guide: Git Revert
+
+### **1. `git checkout`**
+- **Purpose**: Switch between branches or restore files from a branch.
+- **Usage**:
+  - To switch branches: `git checkout <branch-name>`
+  - To restore a file to its state in a specific branch: `git checkout <branch-name> -- <file-name>`
+  
+### **2. [`git reset`](https://jwiegley.github.io/git-from-the-bottom-up/3-Reset/4-doing-a-hard-reset.html)**
+- **Purpose**: Unstage changes or move the HEAD to a different commit.
+- **Types**:
+  - **Soft Reset**: `git reset --soft <commit>` - Moves the HEAD to a specified commit but leaves changes in the staging area.
+  - **Mixed Reset** (default): `git reset --mixed <commit>` - Moves the HEAD to a specified commit and unstages changes.
+  - **Hard Reset**: `git reset --hard <commit>` - Moves the HEAD to a specified commit and discards all changes in the working directory and staging area. **Use with caution!**
+- **Usage**: To unstage changes: `git reset` or `git reset <file-name>`
+
+### **3. `git commit --amend`**
+- **Purpose**: Modify the most recent commit, either to change the commit message or add more changes.
+- **Usage**: `git commit --amend`
+  - You can change the commit message or add new changes to the last commit.
+
+### **4. `git revert`**
+- **Purpose**: Create a new commit that undoes the changes made by a previous commit. This keeps your commit history intact.
+- **Usage**: `git revert <commit-hash>`
+  - This creates a new commit that reverses the effects of the specified commit.
+
+### **5. SHA-1 Hash**
+- **Purpose**: Identify commits and objects in Git. SHA-1 hashes are used for checking the integrity and identity of commits.
+- **Usage**: You can find commit hashes using `git log`, and use these hashes with commands like `git revert`.
+
+### **Additional Tips:**
+
+- **Using `git stash`**: If you need to switch branches but have uncommitted changes, `git stash` can temporarily save your changes. Restore them with `git stash pop`.
+- **Check Git Status**: Use `git status` frequently to check the state of your working directory and staging area.
+- **Backup Your Work**: Before using commands that can potentially discard changes (like `git reset --hard`), consider creating a backup branch with `git branch backup-branch-name`.
+
+Feel free to explore more detailed documentation on Git commands and usage to deepen your understanding.
