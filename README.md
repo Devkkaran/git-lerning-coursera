@@ -119,6 +119,24 @@ A file’s changes are not recorded.
 ## Version Control Systems (VCS)
 A tool to safely test code before releasing it, allow multiple people to collaborate on the same coding projects together, and stores the history of that code and configuration.
 
+
+
+
+# 2. Git Remove & Rename & .gitignore Diff & git log & add 
+
+| **Command**            | **Explanation**                                                                                                                                                                 | **Link**                                                                                           |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| `git commit -a`        | Automatically stages files that have been locally modified. New files that have not been published yet are not affected.                                                        | -                                                                                                  |
+| `git log -p`           | Produces patch text that displays the lines of code that were changed in each commit in the current repository.                                                                 | -                                                                                                  |
+| `git show`             | Shows one or more objects such as blobs, trees, tags, and commits.                                                                                                              | -                                                                                                  |
+| `git diff`             | Similar to the Linux `diff` command, it can show the changes between commits, changes between the working tree and index, changes between two trees, changes from a merge, etc. | -                                                                                                  |
+| `git diff --staged`    | Alias of `git diff --cached`, shows all staged files compared to the named commit.                                                                                              | -                                                                                                  |
+| `git add -p`           | Allows a user to interactively review patches before adding them to the current commit.                                                                                         | -                                                                                                  |
+| `git mv`               | Similar to the Linux `mv` command, this command can move or rename a file, directory, or symlink.                                                                               | -                                                                                                  |
+| `git rm`               | Similar to the Linux `rm` command, this command deletes or removes a file from the working tree.                                                                                | -                                                                                                  |
+| `.gitignore` files     | `.gitignore` files tell Git to intentionally ignore some files in a given Git repository. Useful for configuration files or metadata that should not be checked into the branch. | [Gitignore Documentation](https://git-scm.com/docs/gitignore)                                      |
+|                        | When writing a `.gitignore` file, specific formats help Git understand the text, such as using `#` for comments or `/` for directory separators.                                | [GitHub Repository with `.gitignore` examples](https://github.com/github/gitignore)                |
+
 # 3. Study guide: Git Revert
 
 ### **1. `git checkout`**
@@ -156,3 +174,4 @@ A tool to safely test code before releasing it, allow multiple people to collabo
 - **Backup Your Work**: Before using commands that can potentially discard changes (like `git reset --hard`), consider creating a backup branch with `git branch backup-branch-name`.
 
 Feel free to explore more detailed documentation on Git commands and usage to deepen your understanding.
+
