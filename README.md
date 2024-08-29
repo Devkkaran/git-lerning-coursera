@@ -175,3 +175,79 @@ A tool to safely test code before releasing it, allow multiple people to collabo
 
 Feel free to explore more detailed documentation on Git commands and usage to deepen your understanding.
 
+# 4. Git branches and merging
+
+### Git Branch Commands
+
+1. **List Branches**
+   - Command: `$ git branch`
+   - **Explanation:** Lists all branches in your repository, highlighting the current branch.
+
+2. **Create a New Branch**
+   - Command: `$ git branch <name>`
+   - **Explanation:** Creates a new branch called `<name>`.
+
+3. **Delete a Branch**
+   - Command: `$ git branch -d <name>`
+   - **Explanation:** Deletes the branch `<name>`. This will fail if the branch contains changes that haven’t been merged.
+
+4. **Force Delete a Branch**
+   - Command: `$ git branch -D <name>`
+   - **Explanation:** Forcefully deletes the branch `<name>` even if it contains unmerged changes.
+
+### Git Checkout Commands
+
+5. **Switch to a Branch**
+   - Command: `$ git checkout <branch>`
+   - **Explanation:** Switches your working directory to the branch `<branch>`.
+
+6. **Create and Switch to a New Branch**
+   - Command: `$ git checkout -b <new-branch>`
+   - **Explanation:** Creates a new branch called `<new-branch>` and switches to it immediately.
+
+### Git Merge Commands
+
+7. **Merge a Branch**
+   - Command: `$ git merge <branch>`
+   - **Explanation:** Merges changes from `<branch>` into your current branch.
+
+8. **Abort a Merge**
+   - Command: `$ git merge --abort`
+   - **Explanation:** Aborts a merge in progress and returns the branch to its state before the merge started. This is useful if there are conflicts during the merge.
+
+### Git Log Commands
+
+9. **Visualize Commit History**
+   - Command: `$ git log --graph`
+   - **Explanation:** Displays an ASCII graph of the commit history, showing branches and merges.
+
+10. **View Commit History in Oneline Format**
+    - Command: `$ git log --oneline`
+    - **Explanation:** Displays a concise, one-line summary of each commit.
+
+### Practical Usage
+
+- **Creating a Feature Branch:**
+  ```bash
+  git branch feature-x
+  git checkout feature-x
+  ```
+
+- **Merging Changes from `feature-x` to `main`:**
+  ```bash
+  git checkout main
+  git merge feature-x
+  ```
+
+- **Deleting `feature-x` After Merging:**
+  ```bash
+  git branch -d feature-x
+  ```
+
+### Tips
+
+- **Always Make Sure to be on the Correct Branch:** Before performing operations like merging or deleting branches, ensure you’re on the branch you intend to work with.
+  
+- **Use Git Log:** Commands like `$ git log --oneline` and `$ git log --graph` are very useful for visualizing what’s happening in your repository, especially when dealing with multiple branches.
+
+This guide will definitely help you efficiently manage branches and merges in Git!
