@@ -1,6 +1,6 @@
 
 def main():
-    print('Everything is ok')
+    print('Everything is not ok')
     
 
 main()
