@@ -251,3 +251,14 @@ Feel free to explore more detailed documentation on Git commands and usage to de
 - **Use Git Log:** Commands like `$ git log --oneline` and `$ git log --graph` are very useful for visualizing what’s happening in your repository, especially when dealing with multiple branches.
 
 This guide will definitely help you efficiently manage branches and merges in Git!
+
+# 3. Git Remote Commands Overview
+
+| Command                | Explanation                                                                                          |
+|------------------------|------------------------------------------------------------------------------------------------------|
+| `git remote`           | Allows you to manage the set of repositories or “remotes” whose branches you track.                   |
+| `git remote -v`        | Similar to `git remote`, but adding the `-v` shows more information such as the remote URL.           |
+| `git remote show <name>`| Shows some information about a single remote repo.                                                   |
+| `git remote update`    | Fetches updates for remotes or remote groups.                                                        |
+| `git fetch`            | Can download objects and refs from a single repo, a single URL, or from several repositories at once. |
+| `git branch -r`        | Lists remote branches and can be combined with other branch arguments to manage remote branches.      |
