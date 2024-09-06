@@ -252,7 +252,7 @@ Feel free to explore more detailed documentation on Git commands and usage to de
 
 This guide will definitely help you efficiently manage branches and merges in Git!
 
-# 3. Git Remote Commands Overview
+# 5. Git Remote Commands Overview
 
 | Command                | Explanation                                                                                          |
 |------------------------|------------------------------------------------------------------------------------------------------|
@@ -274,7 +274,7 @@ This guide will definitely help you efficiently manage branches and merges in Gi
 
 So, while `git fetch` can achieve similar results if used with the default remote, `git remote update` is more comprehensive in updating all configured remotes.
 
-## SSH protocol and how it works:
+# 6. SSH protocol and how it works:
 
 ### What is SSH?
 - **SSH (Secure Shell)** is a way to securely connect to a computer or server over the internet. It’s like a secure tunnel that keeps your data safe while you work on another machine.
@@ -305,7 +305,7 @@ SSH uses something called **public-key encryption** to secure communication betw
 I hope this clears things up!
 
 
-Here's an easy explanation of what's happening in the SSH configuration process:
+# 7. SSH configuration process:
 
 ### 1. **What is SSH?**
 SSH is a secure way to connect to another computer or server over the internet. It ensures that no one can see what you're doing while you're connected.
@@ -357,7 +357,7 @@ SSH has extra features like **port forwarding**, which lets you access blocked s
 SSH lets you securely connect to a server by using encryption. You create keys to authenticate yourself and can manage your server remotely. Once everything is set up, SSH keeps your connection safe.
 
 
-## simpler explanation of API keys and how they work:
+# 8. API keys and how they work:
 
 ### 1. **What is an API Key?**
 - An **API key** is like a password for programs to access and use a service (called an API). 
