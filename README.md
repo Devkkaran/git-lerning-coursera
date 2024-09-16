@@ -491,7 +491,7 @@ It is important to effectively resolve merge conflicts because local changes can
 
 ---
 
-### 11. Study Guide: Git Forks and Pull Requests
+# 11. Study Guide: Git Forks and Pull Requests
 
 GitHub is an open-source platform for collaboration and knowledge sharing, allowing users to explore code created by others. This study guide will provide you with pointers on effectively using the platform to make pull requests in the Git environment.
 
@@ -535,5 +535,50 @@ You can merge pull requests by retaining the commits. Below is a list of pull re
 #### **Key Takeaways**
 
 Pull requests are a crucial tool you can use for efficiently capturing, implementing, and receiving approvals for changes. These capabilities are made possible through collaboration. Practicing pull requests can help you hone your skills and contribute to a project.
+
+---
+
+# 12. Code Reviews & Style Guides: Key Points
+
+1. **Google Style Guides:**
+   - A set of norms for writing code in large projects to maintain consistency and readability.
+   - Example: [Google's Style Guide](https://github.com/google/styleguide?tab=readme-ov-file) for writing various programming languages.
+
+2. **Importance of Consistent Coding Standards:**
+   - Uniform coding style ensures readability and maintainability.
+   - Essential for large-scale projects with multiple contributors.
+
+3. **Code Reviews:**
+   - **Peer code review** involves methodical examination of code by fellow programmers.
+   - Helps identify bugs early, saving time and resources.
+   - Increases overall code quality and accelerates development.
+
+---
+
+4. **Code Review Strategies:**
+   - **Pair Programming:** Two developers work together on the same code, increasing mentorship but requiring more resources.
+   - **Email Thread:** Code is reviewed via email; flexible but can lead to confusion due to disorganized feedback.
+   - **Over-the-Shoulder:** One developer explains the code to another in person; effective but not scalable.
+   - **Tool-Assisted:** Software tools manage asynchronous code reviews, streamlining the process without meetings.
+
+5. **Pull Request (PR) Reviews:**
+   - **Purpose:** Code changes are reviewed before being merged into the main branch.
+   - **Process:** Contributors comment on changes, accept them, or request modifications.
+   - **Collaboration:** Accessible to anyone with read access to give feedback.
+
+---
+
+6. **Five Tips for Pull Request Reviews:**
+   - **Be Selective with Reviewers:** Avoid adding too many reviewers for efficiency.
+   - **Timely Reviews:** Complete reviews within 2 hours to prevent delays.
+   - **Constructive Feedback:** Explain suggested changes clearly and positively.
+   - **Detailed Pull Request Description:** Include all relevant information to help reviewers understand the changes.
+   - **Interactive Rebasings:** Keep commit history clean and relevant.
+
+7. **Key Takeaways:**
+   - Consistent coding standards ensure easier code maintenance and collaboration.
+   - Code reviews help catch bugs and speed up development.
+   - Different strategies (pair programming, tool-assisted, etc.) offer flexibility based on team needs.
+   - PR reviews are a crucial step in ensuring code quality before merging.
 
 ---
