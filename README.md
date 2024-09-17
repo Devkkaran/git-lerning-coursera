@@ -582,3 +582,34 @@ Pull requests are a crucial tool you can use for efficiently capturing, implemen
    - PR reviews are a crucial step in ensuring code quality before merging.
 
 ---
+
+# 13. GitHub Project Management Tools
+
+Besides serving as a repository for your code and tracking changes, GitHub includes tools to help manage your software project.
+
+## GitHub Projects
+GitHub Projects is a flexible tool for tracking and managing work. You can create an adaptable spreadsheet, task-board, and road map that integrates with issues and pull requests. With Projects, you can:
+- Filter, sort, and group issues/pull requests.
+- Customize workflows.
+- Create project boards and track issues.
+
+## GitHub Issues
+GitHub Issues helps track tasks like bugs, feature requests, or housekeeping tasks. Features of GitHub Issues:
+- Extensive text and descriptions.
+- Discussion and comments.
+- Assign to people, add tags.
+- Automatically update status when pull requests are completed.
+
+### Traditional Project Management
+You can also view issues in a traditional format with status, assignees, estimates, etc.
+
+## Automation
+GitHub supports automation to update issues/projects automatically as changes occur.
+
+## Resources for More Information
+- [A Quick Guide to Using GitHub for Project Management](https://www.jobsity.com/blog/a-quick-guide-to-using-github-for-project-management)
+- [GitHub for Project Management](https://openscapes.github.io/series/core-lessons/github/github-issues.html)
+- [Using GitHub as Your Project Management Tool (YouTube)](https://www.youtube.com/watch?v=qgQAFP6oSKw)
+- [GitHub Issues: Project Planning for Developers](https://github.com/features/issues)
+
+---
