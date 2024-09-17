@@ -665,3 +665,43 @@ A procedure where new code is examined before it is merged into a branch or the 
 The decision to combine commit messages, and an editor opens to make any
 
 ---
+
+# 15. Glossary Terms from Course 3, Module 4
+
+### CI/CD
+The name for the entire continuous integration and continuous deployment system.
+
+### Code Reviews
+The deliberate and methodical gathering of other programmers to examine each other's code for errors to increase code quality and reduce the amount of bugs.
+
+### Continuous Deployment (CD)
+New code is deployed often after it has been automatically built and tested.
+
+### Continuous Integration (CI)
+A system that will automatically build and test our code every time there's a change.
+
+### Fix Up
+The decision to discard commit messages for that commit.
+
+### Forking
+A way of creating a copy of the given repository so that it belongs to our user.
+
+### Indirect Merges
+GitHub can merge a pull request automatically if the head branch is directly or indirectly merged into the base branch externally.
+
+### Issue Tracker (Bug Tracker)
+A tracker that shows tasks that need to be done, their state, and who's working on them.
+
+### Merge Commits
+All commits from the feature branch are added to the base branch.
+
+### Pipelines
+The specific steps that need to run to obtain the desired result.
+
+### Pull Request
+A procedure where new code is examined before it is merged to create a branch or master branch.
+
+### Squash Commits
+The decision to add commit messages together, and an editor opens to make any necessary changes.
+
+---
