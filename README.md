@@ -612,7 +612,6 @@ GitHub supports automation to update issues/projects automatically as changes oc
 - [Using GitHub as Your Project Management Tool (YouTube)](https://www.youtube.com/watch?v=qgQAFP6oSKw)
 - [GitHub Issues: Project Planning for Developers](https://github.com/features/issues)
 
----
 
 ## Additional Tools
 Check out the following links for more information:
@@ -624,3 +623,45 @@ Check out the following links for more information:
 - [What Is CI/CD? What’s Important and How to Get It Right](https://stackify.com/what-is-cicd-whats-important-and-how-to-get-it-right/)
 - [Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/)
 - [Build Stages](https://docs.travis-ci.com/user/build-stages/)
+
+---
+
+# 14. Glossary Terms from Course 3, Module 4
+
+### CI/CD
+The name for the entire continuous integration and continuous deployment system.
+
+### Code Reviews
+The deliberate and methodical gathering of other programmers to examine each other's code for errors, increasing the code quality and reducing the number of bugs.
+
+### Continuous Deployment (CD)
+New code is deployed often after it has been automatically built and tested.
+
+### Continuous Integration (CI)
+A system that will automatically build and test code every time there's a change.
+
+### Fix Up
+The decision to discard commit messages for that commit.
+
+### Forking
+A way of creating a copy of the given repository so that it belongs to your user account.
+
+### Indirect Merges
+GitHub can merge a pull request automatically if the head branch is directly or indirectly merged into the base branch externally.
+
+### Issue Tracker (Bug Tracker)
+A tracker that shows tasks that need to be done, their current state, and who's working on them.
+
+### Merge Commits
+All commits from the feature branch are added to the base branch.
+
+### Pipelines
+The specific steps that need to run to obtain the desired result.
+
+### Pull Request
+A procedure where new code is examined before it is merged into a branch or the master branch.
+
+### Squash Commits
+The decision to combine commit messages, and an editor opens to make any
+
+---
